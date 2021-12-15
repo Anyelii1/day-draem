@@ -4,7 +4,7 @@
 }
 
 .main-header{
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(imagenes/mxturismo.jpg) no-repeat center top; 
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(../imagenes/mxturismo.jpg) no-repeat center top; 
     background-size: cover;
     height:100vh;
     font-family: 'Lobster', cursive;
