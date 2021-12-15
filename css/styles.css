@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+.main-header{
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(imagenes/mxturismo.jpg) no-repeat center top; 
+    background-size: cover;
+    height:100vh;
+    font-family: 'Lobster', cursive;
+    position: relative;
+}
+
+.main-nav{
+    
+    display: flex;
+    background: linear-gradient(rgba(0,0,0,0.61), rgba(0,0,0,0.61));
+    
+}
+
+.logo{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    padding: 20px 40px;
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+ul{
+    
+    display: flex;
+    margin-left:auto ;
+    margin-right: 100px; 
+    
+}
+
+ul li a{
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: 1.3rem;
+    color: #fff;
+
+}
+ul li a:hover{
+background: rgb(44, 224, 44);
+ }
+
+.content-header{    
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+}
+
+.content-header h1{
+    font-size: 7rem;
+    
+    
+
+}
+
+.content-header p {
+    font-size: 1.5rem;
+    margin: 15px 30px; 
+}
+
+.content-header a {
+    font-size: 1.3rem;
+    display: inline-block;
+    padding: 15px 20px;
+    background: rgb(44, 224, 44);
+    color: #fff;
+
+}
+
+.content-header a:hover{
+    background: rgb(157, 236, 0.61);
+    border: 2px solid rgb(196, 248, 183);
+    padding: 13px 18px;
+    
+}
